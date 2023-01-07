@@ -1,0 +1,32 @@
+body {
+    margin: 0rem;
+    overflow: hidden;
+    background-color: rgb(5, 5, 5);
+}
+
+#pointer {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 49.5%;
+    top: 50%;
+    fill: rgba(255, 255, 255, 8.5);
+}
+
+#image_track {
+    display: flex;
+    gap: 5vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-5.5%, -50%);
+}
+
+.image {
+    height: 55vmin;
+    width: 35vmin;
+    object-fit: cover;
+    object-position: 5.5% 50%;
+    pointer-events: none;
+    user-select: none;
+}
